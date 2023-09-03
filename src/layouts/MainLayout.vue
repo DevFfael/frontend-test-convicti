@@ -3,6 +3,7 @@
     <side-bar />
     <q-page-container class="mainContainer">
       <header-main />
+      <map-main />
       <router-view />
     </q-page-container>
   </q-layout>
@@ -11,11 +12,12 @@
 <script lang="ts">
 import SideBar from 'src/components/SideBar.vue';
 import HeaderMain from 'src/components/HeaderMain.vue';
+import MapMain from 'src/components/MapMain.vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'MainLayout',
-  components: { SideBar, HeaderMain },
+  components: { SideBar, HeaderMain, MapMain },
 });
 </script>
 
