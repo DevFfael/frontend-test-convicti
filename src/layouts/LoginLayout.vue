@@ -61,10 +61,10 @@ export default {
 
 .loginForm
   width: 30%
-  font-size: 18px
+  font-size: 16px
 
 .inputClassForm
-  font-size: 18px
+  font-size: 16px
 
 .q-field__control
   height:44px
