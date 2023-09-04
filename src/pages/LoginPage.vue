@@ -46,6 +46,7 @@ export default {
   data() {
     return {
       error: false,
+      loading: false,
       form: {
         email: null,
         password: null,
@@ -59,6 +60,22 @@ export default {
     onSubmit() {
       window.localStorage.setItem('token', 'nd93ND948N84GFBVDFVB72');
       this.$router.push('/');
+
+      // try {
+      //     this.loading = true
+      //   await login({ ...this.form }).then((res) => {
+      //     this.login = false;
+
+      //     if (!res.access_token) {
+      //       this.error = true
+      //       return;
+      //     }
+      //   });
+      // } catch (error) {
+      //   console.log(error)
+      // } finally{
+      //   this.loading = false
+      // }
     },
   },
 };

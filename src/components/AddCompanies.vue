@@ -212,6 +212,18 @@ export default defineComponent({
     async onSubmit() {
       console.log('Cadastrando...');
       this.$emit('close', false);
+
+      // try {
+      //   this.loading = true;
+      //   const res = await addCompany(this.company);
+      //   if (res.sucess) {
+      //     console.log('Empresa cadastrada com sucesso');
+      //   }
+      // } catch (error) {
+      //   console.error(error);
+      // } finally {
+      //   this.loading = false;
+      // }
     },
   },
 });
