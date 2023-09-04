@@ -1,41 +1,34 @@
-# Quasar App (quasar-project)
+# O desafio
+A proposta geral do sistema é disponibilizar uma área onde deve ser possível gerenciar e consultar 
+empresas a partir de um mapa geral
 
-A Quasar Project
+# Instruções de Instalação 
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+Este guia fornecerá as etapas necessárias para configurar e executar o aplicativo em seu ambiente de desenvolvimento local.
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+## Pré-requisitos
 
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+- [Node.js](https://nodejs.org) v16.20
+- [npm](https://www.npmjs.com/) 
 
+## Passos de Instalação
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+1. **Clone o repositório:**
 
+   ```sh
+   git clone https://github.com/DevFfael/frontend-test-convicti.git
+   ```
+2. **Instale as dependências:**
 
+  ```sh 
+  npm install
+  ```
 
-### Build the app for production
-```bash
-quasar build
-```
+4. **Inicie o aplicativo:**
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+  ```sh 
+  npm run dev
+  ```
+Apos o loading a página abrirá automáticamente em seu navegador padrão
