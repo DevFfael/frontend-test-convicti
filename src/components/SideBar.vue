@@ -27,7 +27,13 @@
         />
       </div>
 
-      <q-btn flat label="Sair" icon="power_settings_new" class="btnExit" />
+      <q-btn
+        flat
+        label="Sair"
+        @click="logout"
+        icon="power_settings_new"
+        class="btnExit"
+      />
     </div>
   </q-drawer>
 </template>
@@ -40,6 +46,12 @@ export default {
       position: 'left',
       breakpoint: 992,
     };
+  },
+  methods: {
+    logout() {
+      window.localStorage.removeItem('token');
+      this.$router.push('/login');
+    },
   },
 };
 </script>

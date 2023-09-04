@@ -22,6 +22,7 @@
         padding="16px"
         color="secondary"
         icon-right="add"
+        @click="modalAddCompany"
         label="Adicionar Empresa"
       />
     </div>
@@ -34,6 +35,11 @@ export default {
     return {
       search: '',
     };
+  },
+  methods: {
+    modalAddCompany() {
+      this.$emit('modal', true);
+    },
   },
 };
 </script>
