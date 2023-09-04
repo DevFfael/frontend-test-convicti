@@ -17,9 +17,9 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
 1. **Clone o repositório:**
 
-   ```sh
-   git clone https://github.com/DevFfael/frontend-test-convicti.git
-   ```
+ ```sh
+ git clone https://github.com/DevFfael/frontend-test-convicti.git
+ ```
 2. **Instale as dependências:**
 
   ```sh 
