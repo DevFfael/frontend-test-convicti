@@ -7,7 +7,11 @@
     :breakpoint="breakpoint"
   >
     <div class="imgSidebar">
-      <q-img src="../assets/logo.png" img-class="imgClassSidebar" />
+      <q-img
+        src="https://convicti.com.br/assets/images/r_footer-logo.webp"
+        alt="Convicti logomarca"
+        img-class="imgClassSidebar"
+      />
     </div>
 
     <div class="container">

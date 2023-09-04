@@ -1,6 +1,10 @@
 <template>
   <div class="loginContent">
-    <q-img src="../assets/logo.png" class="imageLogin" />
+    <q-img
+      src="https://convicti.com.br/assets/images/r_footer-logo.webp"
+      alt="Convicti logomarca"
+      class="imageLogin"
+    />
     <q-form class="loginForm">
       <div class="">
         <label for="email">E-mail</label>
