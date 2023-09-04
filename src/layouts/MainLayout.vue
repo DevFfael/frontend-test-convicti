@@ -18,6 +18,12 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'MainLayout',
   components: { SideBar, HeaderMain, MapMain },
+  mounted() {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      this.$router.push('/login');
+    }
+  },
 });
 </script>
 

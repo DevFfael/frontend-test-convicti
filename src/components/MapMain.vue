@@ -28,14 +28,14 @@ export default {
           source: new VectorSource({
             features: [
               new Feature({
-                geometry: new Point(fromLonLat([-44.181216, -19.939843])),
+                geometry: new Point(fromLonLat([-46.639032, -23.546078])),
               }),
             ],
           }),
         }),
       ],
       view: new View({
-        center: fromLonLat([-44.181216, -19.939843]),
+        center: fromLonLat([-46.639032, -23.546078]),
         zoom: 15,
       }),
     });
